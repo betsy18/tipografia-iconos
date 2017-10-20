@@ -1,0 +1,57 @@
+.main{
+    margin-top: 60px;
+    margin-left: 60px;
+    width: 1500px;
+    position: relative;
+    top: 20px;
+    
+}
+
+div{
+    box-sizing: border-box; 
+    width: 75px;
+    height: 75px;
+}
+
+p{
+    font-family: 'Droid Sans', sans-serif;
+    /*outline: 1px solid orange;*/
+    font-size: 20px;
+    text-align: center;
+    /*font-family: 'Satisfy', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Cookie', cursive;*/
+}
+
+#paperplanes{
+    box-shadow: 0 0 5px #000;
+    max-width: 100%;
+}
+
+.box{
+    /*ayuda visual para saber como se ubican los elementos*/
+    /*outline: 1px solid red;*/
+    width: 155px;
+    height: 200px;
+    padding: 1px;
+    border: 1px solid #199;
+    box-sizing: border-box;
+    float: left;
+    margin-left: 1px;
+}
+
+.title{
+    font-family: 'Satisfy', cursive;
+
+}
+
+.little{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 10px;
+
+}
+
+.text{
+    font-family: 'Cookie', cursive;
+    font-size: 12px;
+}

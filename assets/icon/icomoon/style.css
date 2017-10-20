@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?jcg511');
+  src:  url('fonts/icomoon.eot?jcg511#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?jcg511') format('truetype'),
+    url('fonts/icomoon.woff?jcg511') format('woff'),
+    url('fonts/icomoon.svg?jcg511#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-heart:before {
+  font-size: 55px;
+  content: "\e900";
+  text-align: center;
+  display: block;
+  padding-top: 20px;
+  
+}
+.icon-heart:hover  {
+  box-shadow: 0 0 5px #000
+}
+
+
+.icon-diamond:before {
+  font-size: 50px;
+  content: "\e901";
+  text-align: center;
+  display: block;
+  padding-top: 20px;
+}
+.icon-cup:before {
+  font-size: 50px;
+  content: "\e902";
+  text-align: center;
+  display: block;
+  padding-top: 20px;
+}
+.icon-paperplane:before {
+  font-size: 50px;
+  content: "\e903";
+  text-align: center;
+  display: block;
+  padding-top: 20px;
+}
+.icon-food:before {
+  font-size: 50px;
+  content: "\e904";
+  text-align: center;
+  display: block;
+  padding-top: 15px;
+}
